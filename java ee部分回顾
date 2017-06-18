@@ -1,0 +1,66 @@
+
+回顾：
+
+JAVASE
+面向对象
+封装 继承 多态
+重载  复写 
+接口
+抽象类
+模式
+
+IO流
+集合
+泛型
+反射
+线程
+网络编程
+数据库操作
+GUI
+B/S
+服务器   浏览器
+
+HTTP协议。
+服务器  
+
+
+
+
+JAVAEE
+Tomcat   相当于java实现了http协议的服务器
+
+
+
+jsp
+servlet
+
+
+框架部分
+Struts2
+Spring
+Hibernate
+MyBatis
+工作流
+权限控制
+
+
+Hadoop（Linux）
+
+
+
+
+
+Tomcat servlet容器
+
+相当于java 实现了http协议的服务器  Servlet
+
+
+
+启动服务器
+找到tomcat 安装目录/bin/startup.bat
+在浏览器当中输入：
+http://127.0.0.1:8080
+http://localhost:8080
+
+Eclipse SE
+Eclipse EE
