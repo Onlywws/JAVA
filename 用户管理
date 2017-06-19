@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<title>权限管理系统</title>
+<style type="text/css">
+			<script src
+			
+			body, input, label{font-family: 微软雅黑E\8F6F\96C5\9ED1,Tahoma,Verdana;font-size: 12px;line-height: 18px;color: #444;}
+			body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, p,th, td{margin: 0;padding: 0;}
+			ol,ul {list-style:none} 
+			a,img{border:0;}
+				
+			.all{width: 1920px;height: 1081px; margin:0 auto;}
+			
+			.top{width: 1920px;height: 70px;background:#28a176; border-bottom:1px #666 solid;}
+			.top_1{width: 120px;height: 70px;float: left; margin-left:50px}
+			.top_2{width: 180px; height: 70px; float:left; line-height:70px; font-weight:bolder; font-size:24px;color:#FFF}
+			.top_right{width:180px; height:40px; float: right; margin-top:15px;}
+			
+			#sousuo{
+	width:272px;
+	height:74px;
+	position:absolute;
+	z-index: 1;
+	top: 94px;
+	right: -1375px;
+	line-height:74px;	
+	display:none			
+			}
+			
+			
+			.zhong{width:1920px;height:1010px; }
+			.zhong_left{width: 389px; height:1010px ;float: left;border-right:1px #666 solid}
+			.nihao{width: 389px; height: auto;}
+			.nihao2{width: 388px; height: auto; border-bottom: 1px solid #edeeee; overflow: hidden;}
+			.nihao2 ul{width:388px;height: 350px}
+			.nihao2  li{width:388px; height:70px; display:block;border-bottom:1px #999 solid; line-height:70px;font-size:22px;color:#999}
+			
+			#bone{width: 267px;height:200px ;display: none;}
+			#bone ul li{line-height: 40px;margin-left: 20px;width: 180px;}
+			#bone ul li img.tu{float: left;margin-top: 10px;}
+			
+			.ul1{width:388px;height:auto;display: none}
+			.ul1 li{width:388px;height: 50px;display: block;}
+			.ul2{width:388px;height:50px;display: none;}
+			.ul2 li{width:388px;height: 50px;display: block;}
+			.ul3{width:388px;height:50px;display: none;}
+			.ul3 li{width:388px;height: 50px;display: block;}
+			.ul4{width:388px;height:50px;display: none;}
+			.ul4 li{width:388px;height: 50px;display: block;}
+					
+					
+			.zhong_right{width:1530px;height: 1010px; float:left;}
+			.shouye_top{width: 1530px;height:50px; background: #28a176; }
+			.shouye_xia{width:1530px;height: 960px;background:#0FF}
+			.shouye_1{width:100px;height:50px;background:#28a176; text-align:center;line-height:50px;color:#FFF;font-weight:bolder}
+		</style>
+        
+		<script>
+			function img1(){
+				var sousuo = window.document.getElementsById("sousuo");
+				sousuo.style.display = "block";
+			}
+			function img2(){
+				
+			}
+		
+		</script>
+		<script src="../jQuery库/jquery-3.2.1.zip"> </script>
+        
+	</head>
+	<body>
+		<div class="all">
+			<div class="top">
+				<div class="top_1"><img src="1.jpg"></div>
+                <div class="top_2">权限管理系统</div>
+				<div class="top_right">
+					<table cellpadding="1" cellspacing="0">
+                    	
+						<tr>
+							<td onclick="img1()">
+                            	<img src="2.jpg" onclick="img1()">
+                            	
+                            </td>
+							<td><img src="3.jpg"></td>
+							<td><img src="4.jpg"></td>
+						</tr>
+                        
+					</table>
+				</div>
+                
+                	<div id="sousuo">
+                    <form><input type="text" placeholder="搜索" style="width: 250px;height: 50px; border: 1px solid red;" /></form>
+                    </div>
+                    
+                
+		  </div>
+			<div class="zhong">
+				<div class="zhong_left">
+					<div class="nihao"><img src="5.jpg" /></div>
+                    <div id="bone">
+					<ul>
+						<li><a  href="#" class="n1">个人资料</a></li>
+						<li><a  href="#" class="n2">隐私管理</a></li>
+						<li><a  href="#" class="n3">系统设置</a></li>
+						<li><a  href="#" class="n4">退出登录</a></li>
+					</ul>
+				</div>
+					<div class="nihao2">
+						<ul>
+							<li>首页</li>
+							<li>
+                            	<div class="xiton1">系统组织管理</div>
+                            	<div  class="ul1">
+                                	<ul>
+                                		<li>系统管理</li>
+                                    	<li>组织管理</li>
+                            		</ul>
+                                </div>
+                           	</li>
+							<li>
+                            	<div class="xiton2">角色用户管理</div>
+                            	<div  class="ul2">
+                                	<ul >
+                                		<li>角色管理</li>
+                                    	<li>用户管理</li>
+                            		</ul>
+                                </div>
+                            </li>
+							<li>
+                            	<div class="xiton3">资源权限管理</div>
+                            	<div  class="ul3">
+                                	<ul>
+                                		<li>权限管理</li>
+                            		</ul>
+                                </div>
+                            </li>
+							<li>
+                            	<div class="xiton4">
+							    	<p>其他数据管理</p>
+								</div>
+                            	<div  class="ul4">
+                                	<ul>
+                                	  <li>公共码表</li>
+                                	  <li>会话管理</li>
+                                	  <li>日志记录</li>
+                                	  <li>键值设置</li>
+                                    </ul>
+                            	</div>
+                            </li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="zhong_right">
+					<div class="shouye_top">
+                    	<div class="shouye_1">首页</div>
+                        <div class="shouye_2"></div>
+                    </div>
+					<div class="shouye_xia"></div>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
+
